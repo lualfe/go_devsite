@@ -1,0 +1,37 @@
+{{ define "Navbar" }}
+<nav class="navbar" role="navigation" aria-label="main navigation">
+	<div class="navbar-brand">
+		<a class="navbar-item" href="https://programathor.com.br">
+			<img src="https://programathor.com.br/assets/logo-programathor-46f45829f4c8d4f5bfd9d9aeb461b6d71839c37cc39f2c146b779d2c547bf17b.png" alt="ProgramaThor">
+		</a>
+		<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+			<span aria-hidden="true"></span>
+			<span aria-hidden="true"></span>
+			<span aria-hidden="true"></span>
+		</a>
+	</div>
+	<div class="navbar-menu navbar-style">
+		<div class="navbar-end" style="margin-right: 10px;">
+			<div class="navbar-item">
+				<a class="navbar-item green-link">
+					VER VAGAS
+				</a>
+			</div>
+			<div class="navbar-item has-dropdown is-hoverable">
+				<a class="navbar-link">
+					ENTRAR
+				</a>
+				<div class="navbar-dropdown is-right dropdown-style">
+					<a class="navbar-item" href="/login">
+						LOGIN
+					</a>
+					<hr class="navbar-divider">
+					<a class="navbar-item" href="/cadastrar">
+						CADASTRE-SE
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
+{{ end }}
